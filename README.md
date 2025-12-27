@@ -17,10 +17,10 @@ Red: RS485-B
 Green: GND  
 Yellow: Power(12V)  
 ## Hardware 硬件
-First of all, we need to buy an RS485 to TTL module in order to change the A and B lines of RS485 represented by the black and red lines of VEX to UART level, and connect the A and B lines and GND on the right side.  
-首先我们需要购买RS485转TTL模块，将VEX的黑和红线所代表的RS485的A和B线变为UART电平，把A和B线还有GND在右侧接上。  
+First of all, we need to buy an RS485 to TTL module in order to change the A and B lines of RS485 represented by the black and red lines of VEX to TTL level, and connect the A and B lines and GND on the right side.  
+首先我们需要购买RS485转TTL模块，将VEX的黑和红线所代表的RS485的A和B线变为TTL电平，把A和B线还有GND在右侧接上。  
 ![rs485-to-ttl](https://img.alicdn.com/imgextra/i3/738263294/O1CN01Tjb6ot1aChAvA4TUD_!!738263294.jpg)
-Then buy a 12V to 5V step-down module to power the Arduino. Connect GND and VIN to VEX's GND and Power, connect GND and Vout to Arduino's GND and VCC (5V)  
+Then buy a 12V to 5V buck module to power the Arduino. Connect GND and VIN to VEX's GND and Power, connect GND and Vout to Arduino's GND and VCC (5V)  
 然后购买12V转5V降压模块，来给Arduino供电。将GND和VIN连接VEX的GND和Power，将GND和Vout连接Arduino的GND和VCC（5V）  
 ![12v-to-5v](https://gw.alicdn.com/bao/uploaded/i3/2207691322/O1CN01x2W8u91LdWPSAe4E5_!!2207691322.jpg_Q75.jpg_.webp)
 I made a pcb board to allow the VEX to plug into a breadboard and bring out the pins.  
